@@ -1,3 +1,14 @@
+
+config {
+  type: "declaration",
+  database: "bigquery-public-data",
+  schema: "stackoverflow",
+  name: "posts_answers"
+}
+
+
+/*
+
 config {
   hasOutput: true,
   schema: "sources",
@@ -57,3 +68,4 @@ select
 
 FROM  bigquery-public-data.stackoverflow.posts_answers 
 where creation_date > timestamp("2022-01-01");
+*/

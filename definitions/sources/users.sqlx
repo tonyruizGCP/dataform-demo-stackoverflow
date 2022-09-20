@@ -1,3 +1,14 @@
+
+config {
+  type: "declaration",
+  database: "bigquery-public-data",
+  schema: "stackoverflow",
+  name: "users"
+}
+
+
+/*
+
 config {
 hasOutput: true,
 schema: "sources",
@@ -43,3 +54,6 @@ SELECT
     website_url		 
 
     FROM  bigquery-public-data.stackoverflow.users
+
+
+*/

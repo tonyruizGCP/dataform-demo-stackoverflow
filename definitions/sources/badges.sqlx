@@ -1,3 +1,12 @@
+
+config {
+  type: "declaration",
+  database: "bigquery-public-data",
+  schema: "stackoverflow",
+  name: "badges"
+  }
+
+/*
 config {
     hasOutput: true,
     schema: "sources",
@@ -29,3 +38,5 @@ SELECT
     tag_based
 FROM  bigquery-public-data.stackoverflow.badges
 where date >= timestamp("2022-01-01")
+
+*/
