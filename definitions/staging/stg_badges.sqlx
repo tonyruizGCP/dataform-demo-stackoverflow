@@ -12,3 +12,4 @@ select
   user_id
 from
   ${ref("badges")}
+where creation_date > timestamp("2022-01-01")

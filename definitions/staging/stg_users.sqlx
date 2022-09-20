@@ -13,3 +13,4 @@ select
   round(timestamp_diff(current_timestamp(), creation_date, day)/365) as user_tenure
 from
   ${ref("users")}
+where creation_date > timestamp("2022-01-01")

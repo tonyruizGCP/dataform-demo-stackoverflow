@@ -16,3 +16,4 @@ select
   parent_id
 from
   ${ref("posts_questions")}
+where creation_date > timestamp("2022-01-01")
