@@ -1,0 +1,8 @@
+config {
+  type: "declaration",
+  database: "bigquery-public-data",
+  schema: "stackoverflow",
+  name: "posts_answers",
+  tags: ["sources"],
+  description: "raw posts_answers table"
+}
