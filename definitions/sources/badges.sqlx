@@ -3,6 +3,5 @@ config {
   database: "bigquery-public-data",
   schema: "stackoverflow",
   name: "badges",
-  tags: ["sources"],
   description: "raw badges table"
 }
